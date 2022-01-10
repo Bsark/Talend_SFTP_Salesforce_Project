@@ -1,1 +1,20 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_3oTnEHH5EeytDaSutLJAMQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_jOzXUHH5EeytDaSutLJAMQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_8vGXMHH4EeytDaSutLJAMQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_8vGXMHH4EeytDaSutLJAMQ - Account",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
