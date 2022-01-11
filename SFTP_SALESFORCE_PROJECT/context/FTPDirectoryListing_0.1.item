@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_KggLIHK1EeytDaSutLJAMQ">
+    <contextParameter comment="" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KggLIXK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteNew" prompt="RemoteNew?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/New/" xmi:id="_KggLInK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Archive/" xmi:id="_KggLI3K1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteLog" prompt="RemoteLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Log/" xmi:id="_KggLJHK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteError" prompt="RemoteError?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Error/" xmi:id="_KggLJXK1EeytDaSutLJAMQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_KggLJnK1EeytDaSutLJAMQ">
+    <contextParameter comment="" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KggLJ3K1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteNew" prompt="RemoteNew?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/New/" xmi:id="_KggLKHK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Archive/" xmi:id="_KggLKXK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteLog" prompt="RemoteLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Log/" xmi:id="_KggLKnK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteError" prompt="RemoteError?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Error/" xmi:id="_KggLK3K1EeytDaSutLJAMQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="_KggLLHK1EeytDaSutLJAMQ">
+    <contextParameter comment="" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_KggLLXK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteNew" prompt="RemoteNew?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/New/" xmi:id="_KggLLnK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Archive/" xmi:id="_KggLL3K1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteLog" prompt="RemoteLog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Log/" xmi:id="_KggLMHK1EeytDaSutLJAMQ"/>
+    <contextParameter comment="" name="RemoteError" prompt="RemoteError?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Test/Error/" xmi:id="_KggLMXK1EeytDaSutLJAMQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5c725c93-3065-4d69-b64f-c76bcd900771"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>g4RDTRrmZoFA53rMRrCmuPCKYBoECA8Xd6OMVD7FLj1dDA8YWp4wbsB2hqz0CuMdEplLbTavWBWe&#13;
+Q4pdJ/ZfIQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_97ff99c5-a35d-4be5-bc43-117980be2d62"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OM1TH2ieqgFXqYHYeaoB3ptUh07H2gJ3K2hMwFzA+BodeBZFSrmsaQnzBu1PAs4kQfAj722s0sRu&#13;
+F3YOmlxY9A==</DigestValue></Reference></SignedInfo><SignatureValue>I5cYeXJOZK0XW7RcNJf7EOz895zLKbSsLW9YLhSEZ48dH80voapbcLMlm7VQL0p6/hTr2JrjIrxJ&#13;
+7D66aCK6/9UwEPfTO95lf2jrHplwQqBntPD1bEOXQCNC9P9g1GFeLSE4ZnJ1E+doPcqKPcfozpl7&#13;
+r9Ni+9p8VBFuGlfvAJrMqk26S3ydvuf9GspSVGCXI1QAi1Aa0oRHp8MA0/p7hUkWVXKMbw/FfKmw&#13;
+hpEoTdOK6N7f/uExmjLNJxha99ZZZLQbUzzemLfmxsFGdjXFuh0YSfF8kM4ZwK23PXDYzDOL5Cn7&#13;
+h0S5aBzAyr8ih2eOc5+NLp2QFXc99rLVGa1ZMQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_97ff99c5-a35d-4be5-bc43-117980be2d62" Target="#_5c725c93-3065-4d69-b64f-c76bcd900771"><Timestamp>2022-01-11 08:04:56</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
