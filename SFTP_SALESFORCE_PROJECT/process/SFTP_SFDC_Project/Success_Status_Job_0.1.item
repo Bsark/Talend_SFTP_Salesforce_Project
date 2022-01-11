@@ -1,5 +1,121 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
-  <context confirmationNeeded="false" name="Default"/>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_YDDbQHLjEeytDaSutLJAMQ" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="&quot;C:/Users/KM351CV/OneDrive - EY/Desktop/SFTP_POC&quot;"/>
+    <contextParameter comment="" internalId="_YDDbQXLjEeytDaSutLJAMQ" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Archive/"/>
+    <contextParameter comment="" internalId="_YDDbQnLjEeytDaSutLJAMQ" name="RemoteError" prompt="RemoteError?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Error/"/>
+    <contextParameter comment="" internalId="_YDDbQ3LjEeytDaSutLJAMQ" name="RemoteLog" prompt="RemoteLog?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Log/"/>
+    <contextParameter comment="" internalId="_YDDbRHLjEeytDaSutLJAMQ" name="RemoteNew" prompt="RemoteNew?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/New/"/>
+    <contextParameter comment="" internalId="_YDDbRXLjEeytDaSutLJAMQ" name="SFDC_Connection_apiVersion" prompt="SFDC_Connection_apiVersion?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="52.0"/>
+    <contextParameter comment="" internalId="_YDDbRnLjEeytDaSutLJAMQ" name="SFDC_Connection_clientId" prompt="SFDC_Connection_clientId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbR3LjEeytDaSutLJAMQ" name="SFDC_Connection_endpoint" prompt="SFDC_Connection_endpoint?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="https://login.salesforce.com/services/Soap/u/52.0"/>
+    <contextParameter comment="" internalId="_YDDbSHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_callbackHost" prompt="SFDC_Connection_oauth_callbackHost?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbSXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_callbackPort" prompt="SFDC_Connection_oauth_callbackPort?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbSnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_clientId" prompt="SFDC_Connection_oauth_clientId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbS3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_clientSecret" prompt="SFDC_Connection_oauth_clientSecret?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbTHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_tokenFile" prompt="SFDC_Connection_oauth_tokenFile?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbTXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_audience" prompt="SFDC_Connection_oauth2JwtFlow_audience?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="https://login.salesforce.com"/>
+    <contextParameter comment="" internalId="_YDDbTnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_certificateAlias" prompt="SFDC_Connection_oauth2JwtFlow_certificateAlias?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbT3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_expirationTime" prompt="SFDC_Connection_oauth2JwtFlow_expirationTime?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbUHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_issuer" prompt="SFDC_Connection_oauth2JwtFlow_issuer?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbUXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_keyStore" prompt="SFDC_Connection_oauth2JwtFlow_keyStore?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbUnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_keyStorePassword" prompt="SFDC_Connection_oauth2JwtFlow_keyStorePassword?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbU3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_subject" prompt="SFDC_Connection_oauth2JwtFlow_subject?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbVHLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_host" prompt="SFDC_Connection_proxy_host?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbVXLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_port" prompt="SFDC_Connection_proxy_port?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbVnLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_userPassword_password" prompt="SFDC_Connection_proxy_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbV3LjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_userPassword_userId" prompt="SFDC_Connection_proxy_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbWHLjEeytDaSutLJAMQ" name="SFDC_Connection_sessionDirectory" prompt="SFDC_Connection_sessionDirectory?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbWXLjEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePath" prompt="SFDC_Connection_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbWnLjEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePwd" prompt="SFDC_Connection_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbW3LjEeytDaSutLJAMQ" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value="60000"/>
+    <contextParameter comment="" internalId="_YDDbXHLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:wk9YprRa1y6pasOqgf0UV+duBiTLdJdEfHF7hv8N/aCNoF1ZXpc="/>
+    <contextParameter comment="" internalId="_YDDbXXLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:7tp8t29ZP7PACLNOJHCq2fbpuBRaCfEn0hm+EP7Bgp9z9PanO6/hMVv9vNydUEgWu4H5NQ=="/>
+    <contextParameter comment="" internalId="_YDDbXnLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="baisakhi771@ey.com"/>
+    <contextParameter comment="" internalId="_YDDbX3LjEeytDaSutLJAMQ" name="FromAddress" prompt="FromAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="mauvemystic@gmail.com"/>
+    <contextParameter comment="" internalId="_YDDbYHLjEeytDaSutLJAMQ" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="smtp.mailtrap.io"/>
+    <contextParameter comment="" internalId="_YDDbYXLjEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:h+TXiEYEcHXsH2i9ERdD0o0RhtAT6QKTJePDj6wQZD25jHjpuEOj9nU5"/>
+    <contextParameter comment="" internalId="_YDDbYnLjEeytDaSutLJAMQ" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="2525"/>
+    <contextParameter comment="" internalId="_YDDbY3LjEeytDaSutLJAMQ" name="ToAddress" prompt="ToAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="baisakhisarkar15@gmail.com"/>
+    <contextParameter comment="" internalId="_YDDbZHLjEeytDaSutLJAMQ" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="6251ac1ec5bc9c"/>
+  </context>
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" internalId="_YDDbZXLjEeytDaSutLJAMQ" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="&quot;C:/Users/KM351CV/OneDrive - EY/Desktop/SFTP_POC&quot;"/>
+    <contextParameter comment="" internalId="_YDDbZnLjEeytDaSutLJAMQ" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Archive/"/>
+    <contextParameter comment="" internalId="_YDDbZ3LjEeytDaSutLJAMQ" name="RemoteError" prompt="RemoteError?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Error/"/>
+    <contextParameter comment="" internalId="_YDDbaHLjEeytDaSutLJAMQ" name="RemoteLog" prompt="RemoteLog?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Log/"/>
+    <contextParameter comment="" internalId="_YDDbaXLjEeytDaSutLJAMQ" name="RemoteNew" prompt="RemoteNew?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/New/"/>
+    <contextParameter comment="" internalId="_YDDbanLjEeytDaSutLJAMQ" name="SFDC_Connection_apiVersion" prompt="SFDC_Connection_apiVersion?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="52.0"/>
+    <contextParameter comment="" internalId="_YDDba3LjEeytDaSutLJAMQ" name="SFDC_Connection_clientId" prompt="SFDC_Connection_clientId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbbHLjEeytDaSutLJAMQ" name="SFDC_Connection_endpoint" prompt="SFDC_Connection_endpoint?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="https://login.salesforce.com/services/Soap/u/52.0"/>
+    <contextParameter comment="" internalId="_YDDbbXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_callbackHost" prompt="SFDC_Connection_oauth_callbackHost?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbbnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_callbackPort" prompt="SFDC_Connection_oauth_callbackPort?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbb3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_clientId" prompt="SFDC_Connection_oauth_clientId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbcHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_clientSecret" prompt="SFDC_Connection_oauth_clientSecret?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbcXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_tokenFile" prompt="SFDC_Connection_oauth_tokenFile?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbcnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_audience" prompt="SFDC_Connection_oauth2JwtFlow_audience?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="https://login.salesforce.com"/>
+    <contextParameter comment="" internalId="_YDDbc3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_certificateAlias" prompt="SFDC_Connection_oauth2JwtFlow_certificateAlias?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbdHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_expirationTime" prompt="SFDC_Connection_oauth2JwtFlow_expirationTime?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbdXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_issuer" prompt="SFDC_Connection_oauth2JwtFlow_issuer?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbdnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_keyStore" prompt="SFDC_Connection_oauth2JwtFlow_keyStore?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbd3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_keyStorePassword" prompt="SFDC_Connection_oauth2JwtFlow_keyStorePassword?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbeHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_subject" prompt="SFDC_Connection_oauth2JwtFlow_subject?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbeXLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_host" prompt="SFDC_Connection_proxy_host?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbenLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_port" prompt="SFDC_Connection_proxy_port?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbe3LjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_userPassword_password" prompt="SFDC_Connection_proxy_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbfHLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_userPassword_userId" prompt="SFDC_Connection_proxy_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbfXLjEeytDaSutLJAMQ" name="SFDC_Connection_sessionDirectory" prompt="SFDC_Connection_sessionDirectory?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbfnLjEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePath" prompt="SFDC_Connection_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbf3LjEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePwd" prompt="SFDC_Connection_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbgHLjEeytDaSutLJAMQ" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value="60000"/>
+    <contextParameter comment="" internalId="_YDDbgXLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:MBJMEWGzYCiUIxlOpBNEKCt/9a9a5Ttki0+qPjOwLnS5FVBMwqw="/>
+    <contextParameter comment="" internalId="_YDDbgnLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:vBXCKnXI8g05yKFv3cApScYLjD+ede5H3XwiAdgzI2A/Li2v6zPeqyugZax1a6Qe2O4uKQ=="/>
+    <contextParameter comment="" internalId="_YDDbg3LjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="baisakhi771@ey.com"/>
+    <contextParameter comment="" internalId="_YDDbhHLjEeytDaSutLJAMQ" name="FromAddress" prompt="FromAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="mauvemystic@gmail.com"/>
+    <contextParameter comment="" internalId="_YDDbhXLjEeytDaSutLJAMQ" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="smtp.mailtrap.io"/>
+    <contextParameter comment="" internalId="_YDDbhnLjEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:kBaGuEvSkeE4xzqX6t3r7qPiV6xgpqlPotn0LTeKDMLfl0JzJUUYjhBo"/>
+    <contextParameter comment="" internalId="_YDDbh3LjEeytDaSutLJAMQ" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="2525"/>
+    <contextParameter comment="" internalId="_YDDbiHLjEeytDaSutLJAMQ" name="ToAddress" prompt="ToAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="baisakhisarkar15@gmail.com"/>
+    <contextParameter comment="" internalId="_YDDbiXLjEeytDaSutLJAMQ" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="6251ac1ec5bc9c"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" internalId="_YDDbinLjEeytDaSutLJAMQ" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="&quot;C:/Users/KM351CV/OneDrive - EY/Desktop/SFTP_POC&quot;"/>
+    <contextParameter comment="" internalId="_YDDbi3LjEeytDaSutLJAMQ" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Archive/"/>
+    <contextParameter comment="" internalId="_YDDbjHLjEeytDaSutLJAMQ" name="RemoteError" prompt="RemoteError?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Error/"/>
+    <contextParameter comment="" internalId="_YDDbjXLjEeytDaSutLJAMQ" name="RemoteLog" prompt="RemoteLog?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Log/"/>
+    <contextParameter comment="" internalId="_YDDbjnLjEeytDaSutLJAMQ" name="RemoteNew" prompt="RemoteNew?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/New/"/>
+    <contextParameter comment="" internalId="_YDDbj3LjEeytDaSutLJAMQ" name="SFDC_Connection_apiVersion" prompt="SFDC_Connection_apiVersion?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="52.0"/>
+    <contextParameter comment="" internalId="_YDDbkHLjEeytDaSutLJAMQ" name="SFDC_Connection_clientId" prompt="SFDC_Connection_clientId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbkXLjEeytDaSutLJAMQ" name="SFDC_Connection_endpoint" prompt="SFDC_Connection_endpoint?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="https://login.salesforce.com/services/Soap/u/52.0"/>
+    <contextParameter comment="" internalId="_YDDbknLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_callbackHost" prompt="SFDC_Connection_oauth_callbackHost?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbk3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_callbackPort" prompt="SFDC_Connection_oauth_callbackPort?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDblHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_clientId" prompt="SFDC_Connection_oauth_clientId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDblXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_clientSecret" prompt="SFDC_Connection_oauth_clientSecret?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDblnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth_tokenFile" prompt="SFDC_Connection_oauth_tokenFile?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbl3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_audience" prompt="SFDC_Connection_oauth2JwtFlow_audience?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="https://login.salesforce.com"/>
+    <contextParameter comment="" internalId="_YDDbmHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_certificateAlias" prompt="SFDC_Connection_oauth2JwtFlow_certificateAlias?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbmXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_expirationTime" prompt="SFDC_Connection_oauth2JwtFlow_expirationTime?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDbmnLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_issuer" prompt="SFDC_Connection_oauth2JwtFlow_issuer?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbm3LjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_keyStore" prompt="SFDC_Connection_oauth2JwtFlow_keyStore?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbnHLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_keyStorePassword" prompt="SFDC_Connection_oauth2JwtFlow_keyStorePassword?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbnXLjEeytDaSutLJAMQ" name="SFDC_Connection_oauth2JwtFlow_subject" prompt="SFDC_Connection_oauth2JwtFlow_subject?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbnnLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_host" prompt="SFDC_Connection_proxy_host?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbn3LjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_port" prompt="SFDC_Connection_proxy_port?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_YDDboHLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_userPassword_password" prompt="SFDC_Connection_proxy_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDboXLjEeytDaSutLJAMQ" name="SFDC_Connection_proxy_userPassword_userId" prompt="SFDC_Connection_proxy_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbonLjEeytDaSutLJAMQ" name="SFDC_Connection_sessionDirectory" prompt="SFDC_Connection_sessionDirectory?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbo3LjEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePath" prompt="SFDC_Connection_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_YDDbpHLjEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePwd" prompt="SFDC_Connection_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_YDDbpXLjEeytDaSutLJAMQ" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value="60000"/>
+    <contextParameter comment="" internalId="_YDDbpnLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:M/utl9Ip4oyx4r9C6yfjzdYdSjQbwp9xm6XG0IrEyWeG+BcNx/Q="/>
+    <contextParameter comment="" internalId="_YDDbp3LjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:r3dMMAbUukJ4ZTSUiVyGFgcBN6B4EHMlOTpR0OpImUC76sXyBqvjBZMSSRwRllU8JR1rSQ=="/>
+    <contextParameter comment="" internalId="_YDDbqHLjEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="baisakhi771@ey.com"/>
+    <contextParameter comment="" internalId="_YDDbqXLjEeytDaSutLJAMQ" name="FromAddress" prompt="FromAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="mauvemystic@gmail.com"/>
+    <contextParameter comment="" internalId="_YDDbqnLjEeytDaSutLJAMQ" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="smtp.mailtrap.io"/>
+    <contextParameter comment="" internalId="_YDDbq3LjEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:Nw2cyXmzsKAyfaZ0CfOkT8AxJO2ASTJ5deFWQn9t2V5O3FNSnUjB0ZNw"/>
+    <contextParameter comment="" internalId="_YDDbrHLjEeytDaSutLJAMQ" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="2525"/>
+    <contextParameter comment="" internalId="_YDDbrXLjEeytDaSutLJAMQ" name="ToAddress" prompt="ToAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="baisakhisarkar15@gmail.com"/>
+    <contextParameter comment="" internalId="_YDDbrnLjEeytDaSutLJAMQ" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="6251ac1ec5bc9c"/>
+  </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -43,7 +159,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:TBHMRaTdxr7RtXqFNJhvpZRzZSRBHrpY251Tm5ph"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:1KrysXqBls0K4QlS+rfijO0gErhK9+1PW1TTJpeX"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +194,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Gz1jpd32D02wU65Nv+otn0m4O2XxPehaA668hk49"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5Xt8LAyiT1lBxCClMQvUf+EzF+oBh0f0eY5msw3Y"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -121,14 +237,14 @@
     <elementParameter field="TEXT" name="PORT" value="22"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="USER" value="&quot;harshitey&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:JSw4LPioE0+IdRtjzAWgTICtTu0baxEsbKrZ686YKoocPib7X9UANw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ixqOa1SawUDGf2uKWdAapiK+dmUYJzoaJXBVd3Ue/9sM2dB9lQ2CfQ=="/>
     <elementParameter field="CHECK" name="SFTP" value="true"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:bJNx30Up3XuQTYc85O55pDzUXUCQ0yU3ZV40B82/"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:7O85u8vF4Gh1hWiLgzUdrmNVmPpnuudtzH3vz/o7"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:yCBUN1A5IuIMO1mjiMQWOl9OKpyFft0pt+k2QSjZ"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:fxLl9KG/uCHFQx47uG+2S2KDRCcTil1+YLfAQNQt"/>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" show="false" value="IMPLICIT"/>
     <elementParameter field="CHECK" name="USE_ENCODING" value="false"/>
@@ -138,7 +254,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:ky4vmUK2XU2KnL6cyKbUdfYaCqpEE4k1DlzDi/Fm"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:YvabXHSa0AE4+ZtdVjshQZ3MbKLoH+xd/NWVGPlN"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" show="false" value="0"/>
     <elementParameter field="CHECK" name="REMOTE_VERIFICATION" show="false" value="true"/>
@@ -157,14 +273,14 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;harshitey&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:3sYctWF3qb22x8eTwrHsMTrw3VbjAZ2USp/ch9GnGY0HrtpAzuHabg=="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:ojFDOczqN7kai+QvkzD9338ygs1WpPrT/Alcoi5K3j/Pe4YNYiClLg=="/>
     <elementParameter field="CHECK" name="SFTP" show="false" value="true"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:GTuXF8r9bptMzWwVD6VOJSk61LaSdlUwhzhE9QpD"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:mXOLqEE8z473kWQNKDBln/iRrG/r4/uaUgMpag+p"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:JJRRpAjBh/mqBQevAeiiVLYJfqpsCrw7mjGaKIEB"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:FyHvIL0J+mU7Ji281kKufN9wvUpclDxg6KS0i7Tu"/>
     <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.localDir"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.RemoteNew"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" show="false" value="true"/>
@@ -186,7 +302,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:vJMHuXjiUJzcael149KW1Dhj6iggvy7MPWXZCnaW"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:X2xzbSKBkZY6Nrq6FUmEC/YiTCyDXaY8G2bJ3AKu"/>
     <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
     <elementParameter field="CHECK" name="PRINT_MESSAGE" value="false"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
@@ -208,18 +324,18 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="21"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="990"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Yd01Y3x4GboiwQG3WIGSZW6zta27t5WPPltISZAANaA1sNCpJPEW"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:kUU+uSvmt5rkqsXrUHMnXO4uYF/fFE1ZTIk8TJKgIl7vhp30F7Vo"/>
     <elementParameter field="CHECK" name="SFTP" show="false" value="false"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:kH8k4cBsW7fUllC+1Q2Dxg4bWQVPyDPbkznxlGylI6c7WMJP"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:o57y5T05f16rtP1OveaIE1UVuIwONmDOw+WkZT6q8OpCw2iF"/>
     <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.localDir"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.RemoteArchive"/>
     <elementParameter field="CHECK" name="CREATE_DIR_IF_NOT_EXIST" value="false"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" show="false" value="true"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:HUbj0yo21g4kUYHYryGh+bhomo+m1mtHqyPyNPTfwVqBBFGI"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:uMAblacN1CPq6IYBSASs/ikOOK32ieil7/awklaw7GB0Rgo6"/>
     <elementParameter field="CLOSED_LIST" name="MODE" show="false" value="ascii"/>
     <elementParameter field="CLOSED_LIST" name="OVERWRITE" show="false" value="size_differ"/>
     <elementParameter field="CHECK" name="APPEND" show="false" value="false"/>
@@ -240,7 +356,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:Bj8BX7nxikBSqAPoZWDcdSbgqr7KTJRiKIix+FlS"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:Q0U2ZugfLr0AqHCvbDBiGzDVVJOStEcM6SdHHtj5"/>
     <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" show="false" value="0"/>
@@ -262,14 +378,14 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;harshitey&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:swxXoGxVWtO/gNQbIjgR3KPGoCxzz+2S0BlnTyiea6ICKkuDQf+AXQ=="/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:37cAlcT9f4YvA6Kbh3lsZp7/LiflHgSZinOfZncMigWfnXx58KRbKQ=="/>
     <elementParameter field="CHECK" name="SFTP" show="false" value="true"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:xm1l65PZ1CgYeR62JJY5+AXRbzuyL4xJnMuUkBQA"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:AvrCB14cipGYGA28C3rSZxZuy8kUhqKq9+4ecGVS"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:eAsMBrONMD4okuaE2t66sOsYNaFFuDaKyHS1bMNS"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:8pKX85umUlsOBJZ1KfyRvTPuPFA2EGaR+Oe8YTVj"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.RemoteNew"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" show="false" value="true"/>
     <elementParameter field="CHECK" name="PERL5_REGEX" value="false"/>
@@ -285,7 +401,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:0k6Oejyyy5GL6R+Fj6/Y+DC+D9v22rbekYw1MVpf"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:bt+QPUU/QrB4K6dPtM46IY1V9x419LThJWvRqDwr"/>
     <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" show="false" value="0"/>
@@ -321,7 +437,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.username"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:pXj9OQuQqgxTPVdQm9K92e/nWI8ErGBLqUMzNSkXPb1eb95soBOL72uKOFM="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:A5kjXSRXF+4sUdV/BVauiYA4DpexAIg4lb1LORNIP3T+iq6WJrq2YZRVCQg="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -578,13 +694,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_c72f5e48-d6a5-4551-99e1-a8f41ef60629"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k7TJ63PpKlbIcDNuzuXmai9yUCB6mgplm+htJ4iThOsTekCXdtvuyYbchMMav2irElHigKTLQLL2&#13;
-p49pGnkOdg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_078ecdb0-1c76-4593-b78b-3bdf21b89f4f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zbec64JhEzMUQd4BOd6xHCJqSdl/TiWjQX584vlvjLUKcsTeZaWFWa1vb/e+gRcqF31bnTEImqxu&#13;
-x4wCRUGxBA==</DigestValue></Reference></SignedInfo><SignatureValue>VKtYP9Ocd24PZ4PfRSAPchcvWHQ+wrvcQ7Bz8DnXZFNLO/80GN2nDWIzM6/SiEvVI9Q1jLE+JWSq&#13;
-m67jcZjIMzPH6bDs3B7U82iK8TZZiXOBDKX3M9TIcuLY7wEfxwurfz9BYAmZTpysjhudkGxaV4Ri&#13;
-LCZlMx96iXLa5ty62XZr7jTHsOHAuBX9qXl4e0uoU+w5tRfns7S/+IE+urji2jVJSg40iRE2V8vA&#13;
-nl00hlwo0yFl+ydCc6x10yZV5mzQ0shvm7ujICILUQtsgNJsGUu3GgFuTqc1xywDKquYofsIgz9c&#13;
-KuizTpa7mXZ5nOhtIOMd6JxaKr8j8faBo7fkPQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6c907178-4227-4fc1-acdb-bfcbbd17535b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>y3Z32D9yQPqP1Ftm1uz2tD8U/+6+UEyc/osC6kSvw9fcTLLt3pyQMrmuXAGb3gGXJfkYGpmUhcW7&#13;
++1w5FiLCAA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bc0bd775-575b-4658-b789-dff5f13bb953"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VJ8GGAi98h2K2VmMx5Kd40HPOQbAgZX4r10lMQwF8FG2b+oLV5FKoQCKDqphWrxpsO3iRKaN8Y/C&#13;
+qEEfumvPKA==</DigestValue></Reference></SignedInfo><SignatureValue>bqIUfZb0CCy/p/husW9Cy0GKQ5iXNXHm9zjPORHlLE7POotFaCS54IIBMvH38OCa1egupCsspsU3&#13;
+vedS4BN5lbZnVF3GwXoz1AKNz2HPs7tgeVx1zg9av6yO4wH/Y1LsKfWrDbkgper41dAQP/Bcpr+A&#13;
+f45db2bAVxuNrITeNXlhY1FjyCTRbb2PZ5Jvpk8xZgK7yd8G+yZk5ZRELlcV2CYTMkyXiLh5e4U5&#13;
+D8+ZfvfpoYeJ0pf+JA5SKMEzPUO4bIsyrBsV/e58D1BovpgA9THxixxv+aQp2IHN7w7rS7ZEXZbo&#13;
+lnnMGE8slKobv1d82mKlR/W6xqVYZAKe3nSOsA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -606,4 +722,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_078ecdb0-1c76-4593-b78b-3bdf21b89f4f" Target="#_c72f5e48-d6a5-4551-99e1-a8f41ef60629"><Timestamp>2022-01-11 13:35:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bc0bd775-575b-4658-b789-dff5f13bb953" Target="#_6c907178-4227-4fc1-acdb-bfcbbd17535b"><Timestamp>2022-01-11 13:35:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
