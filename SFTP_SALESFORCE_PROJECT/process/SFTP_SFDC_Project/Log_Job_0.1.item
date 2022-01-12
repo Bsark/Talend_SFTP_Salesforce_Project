@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" internalId="_JMfgIHNmEeytDaSutLJAMQ" name="localDir" prompt="localDir?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="&quot;C:/Users/KM351CV/OneDrive - EY/Desktop/SFTP_POC&quot;"/>
     <contextParameter comment="" internalId="_JMfgIXNmEeytDaSutLJAMQ" name="RemoteArchive" prompt="RemoteArchive?" promptNeeded="false" repositoryContextId="_KgQTgHK1EeytDaSutLJAMQ" type="id_String" value="/Test/Archive/"/>
@@ -28,12 +28,12 @@
     <contextParameter comment="" internalId="_JMfgOXNmEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePath" prompt="SFDC_Connection_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_JMfgOnNmEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePwd" prompt="SFDC_Connection_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
     <contextParameter comment="" internalId="_JMfgO3NmEeytDaSutLJAMQ" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value="60000"/>
-    <contextParameter comment="" internalId="_JMfgPHNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:I0yjwfc6Oho8+MzQBJB2OhDK6HYF2NKIXbd/X5kmwMOe/q8wCZU="/>
-    <contextParameter comment="" internalId="_JMfgPXNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:a+wB6/HlOGV9AK9YQCplHNigRTAYuGLHXAIR1HRb77eIzTS1KtD6ALX9aUn6w7ncuxEyTQ=="/>
+    <contextParameter comment="" internalId="_JMfgPHNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:gfBB9OuTrlr5QGvaDmrrqlkCednOjVn68Kjq0tK0vPw1un+7O/M="/>
+    <contextParameter comment="" internalId="_JMfgPXNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:vXCL44iWYjPsXPjup+q3a9bhGB0GbbQg36YFnv0vRmjCgzojszmRRl1XNflDo7/rYtVGfw=="/>
     <contextParameter comment="" internalId="_JMfgPnNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="baisakhi771@ey.com"/>
     <contextParameter comment="" internalId="_JMfgP3NmEeytDaSutLJAMQ" name="FromAddress" prompt="FromAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="mauvemystic@gmail.com"/>
     <contextParameter comment="" internalId="_JMfgQHNmEeytDaSutLJAMQ" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="smtp.mailtrap.io"/>
-    <contextParameter comment="" internalId="_JMfgQXNmEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:8496gM6VOW0oPtm/dP2F1Rd3I5ttn37cKkKXognKyiV78vwaYENjqbCj"/>
+    <contextParameter comment="" internalId="_JMfgQXNmEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:2Wz8eJag+IVZnI8m9+Zn8m+ED9indf+XdWRYU4VbtyGqL+6As8pYPsW9"/>
     <contextParameter comment="" internalId="_JMfgQnNmEeytDaSutLJAMQ" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="2525"/>
     <contextParameter comment="" internalId="_JMfgQ3NmEeytDaSutLJAMQ" name="ToAddress" prompt="ToAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="baisakhisarkar15@gmail.com"/>
     <contextParameter comment="" internalId="_JMfgRHNmEeytDaSutLJAMQ" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="6251ac1ec5bc9c"/>
@@ -67,12 +67,12 @@
     <contextParameter comment="" internalId="_JMfgXnNmEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePath" prompt="SFDC_Connection_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_JMfgX3NmEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePwd" prompt="SFDC_Connection_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
     <contextParameter comment="" internalId="_JMfgYHNmEeytDaSutLJAMQ" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value="60000"/>
-    <contextParameter comment="" internalId="_JMfgYXNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:62sizyg/p8JE/S2QXZAJDOmI5VdfU0Bdyp8eW6qwcAaKyY6ITws="/>
-    <contextParameter comment="" internalId="_JMfgYnNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:ib4h2ShEsSbxGojM1v2r9PU3TIC5ADfyRkjEmdZY+piMVKdPwdud6yUd3qVD5qEj4PCLDw=="/>
+    <contextParameter comment="" internalId="_JMfgYXNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:Xu+YNe2jUw/11lbaXyI3VwTk8xOGxXGvXQYfNO9l7Q9QlDrLMKU="/>
+    <contextParameter comment="" internalId="_JMfgYnNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:teEX8bMLtyLEQD8upNJlXDj3XzyDAg4mxNQfdhsKShrHwfZ43Y7JR3wJMRyQSwK9mRYw7g=="/>
     <contextParameter comment="" internalId="_JMfgY3NmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="baisakhi771@ey.com"/>
     <contextParameter comment="" internalId="_JMfgZHNmEeytDaSutLJAMQ" name="FromAddress" prompt="FromAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="mauvemystic@gmail.com"/>
     <contextParameter comment="" internalId="_JMfgZXNmEeytDaSutLJAMQ" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="smtp.mailtrap.io"/>
-    <contextParameter comment="" internalId="_JMfgZnNmEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:0H+UZEhVJSuvf76eu+5Ly0R6zzlfKKGCeCNLhCGkfWaBLD24jY/vSPID"/>
+    <contextParameter comment="" internalId="_JMfgZnNmEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:Eq4EsYtfjZ5T06UHX8kQDEZu5dFADJZ5x9bjchigUsLsAsgcCFrF9H+E"/>
     <contextParameter comment="" internalId="_JMfgZ3NmEeytDaSutLJAMQ" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="2525"/>
     <contextParameter comment="" internalId="_JMfgaHNmEeytDaSutLJAMQ" name="ToAddress" prompt="ToAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="baisakhisarkar15@gmail.com"/>
     <contextParameter comment="" internalId="_JMfgaXNmEeytDaSutLJAMQ" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="6251ac1ec5bc9c"/>
@@ -106,12 +106,12 @@
     <contextParameter comment="" internalId="_JMfgg3NmEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePath" prompt="SFDC_Connection_sslProperties_keyStorePath?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value=""/>
     <contextParameter comment="" internalId="_JMfghHNmEeytDaSutLJAMQ" name="SFDC_Connection_sslProperties_keyStorePwd" prompt="SFDC_Connection_sslProperties_keyStorePwd?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value=""/>
     <contextParameter comment="" internalId="_JMfghXNmEeytDaSutLJAMQ" name="SFDC_Connection_timeout" prompt="SFDC_Connection_timeout?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Integer" value="60000"/>
-    <contextParameter comment="" internalId="_JMfghnNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:qHrls9jPafvyabWwBB9Ja1xF5DRNwxYXmUCUNKJq4xlhB5/P66s="/>
-    <contextParameter comment="" internalId="_JMfgh3NmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:grP+SuRD0Iwj7Ju5xw5GgYW3jmXxHwDEZvPuLPC9IMdYMAwEqa9zEo4vFPfe2H9V41LUNA=="/>
+    <contextParameter comment="" internalId="_JMfghnNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_password" prompt="SFDC_Connection_userPassword_password?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:ty9MjmhTi4+HmgPPk0lZ/RoxsByDp1gw5F39KmfmtC3/t0sH3HU="/>
+    <contextParameter comment="" internalId="_JMfgh3NmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_securityKey" prompt="SFDC_Connection_userPassword_securityKey?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:ZuQNpsH+RNRuv4GGqXFwkWDQ4HfZGN1Dsn25tGphZEl59ZaSVofdptbVtKe1U5USdqkTDg=="/>
     <contextParameter comment="" internalId="_JMfgiHNmEeytDaSutLJAMQ" name="SFDC_Connection_userPassword_userId" prompt="SFDC_Connection_userPassword_userId?" promptNeeded="false" repositoryContextId="_jOzXUHH5EeytDaSutLJAMQ" type="id_String" value="baisakhi771@ey.com"/>
     <contextParameter comment="" internalId="_JMfgiXNmEeytDaSutLJAMQ" name="FromAddress" prompt="FromAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="mauvemystic@gmail.com"/>
     <contextParameter comment="" internalId="_JMfginNmEeytDaSutLJAMQ" name="host" prompt="host?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="smtp.mailtrap.io"/>
-    <contextParameter comment="" internalId="_JMfgi3NmEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:GW6/DkLmHTVC/hmE6zKAryke0De6cbIY32CZU/i15zpcitaTKERDoORJ"/>
+    <contextParameter comment="" internalId="_JMfgi3NmEeytDaSutLJAMQ" name="password" prompt="password?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_Password" value="enc:system.encryption.key.v1:8DolnaskSRUtnpjTPtnmLCxJHyi0ygPGQfbekGpviaIeyiirXICpapPC"/>
     <contextParameter comment="" internalId="_JMfgjHNmEeytDaSutLJAMQ" name="port" prompt="port?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="2525"/>
     <contextParameter comment="" internalId="_JMfgjXNmEeytDaSutLJAMQ" name="ToAddress" prompt="ToAddress?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="baisakhisarkar15@gmail.com"/>
     <contextParameter comment="" internalId="_JMfgjnNmEeytDaSutLJAMQ" name="username" prompt="username?" promptNeeded="false" repositoryContextId="_dSbPwHIKEeytDaSutLJAMQ" type="id_String" value="6251ac1ec5bc9c"/>
@@ -159,7 +159,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:uJvEv+l27RZTS7LNJpZGZIMS7TJx5Ns067jyeeSV"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:mfqU51xTchWJs51gp2bU2try5ALiUpg5l2EN+S7E"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -194,7 +194,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:C74QQ9UXhYxu0kAgiXqH07WRMooA+Huls8Q7ZL/6"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1Rn2LuBdRD2LZTxB+p2aim3mivEjUlq+TrSr2Jx6"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -237,14 +237,14 @@
     <elementParameter field="TEXT" name="PORT" value="22"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="22"/>
     <elementParameter field="TEXT" name="USER" value="&quot;harshitey&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:e0ETvUAgFKwc5ktSjYyKWc662qWMQlxW6nGRKbjL/Ad8aHVezGHJqw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ArHJUjHIJ9qBbYIulpMG08ra6agkqgHdtxuSDZI7daEpjKwXT05c2A=="/>
     <elementParameter field="CHECK" name="SFTP" value="true"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:eGnInkDyDt7iuhINRkzeUACy2LUbhwbrZwHeUs3E"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:IRPwu+LVYa15oiiKD4c0lmunJ5jzwmX1kHG8N8y/"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" value="PASSWORD"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:WWhWN5CqsaT0sH/shj2DVlb8xm+y9BMnl9tl9fvj"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:ngX7Ln/dOAQ4GgIWZ4k3aPRXAQQTBGzLPwiLxgwA"/>
     <elementParameter field="CLOSED_LIST" name="CONNECT_MODE" show="false" value="PASSIVE"/>
     <elementParameter field="CLOSED_LIST" name="SECURITY_MODE" show="false" value="IMPLICIT"/>
     <elementParameter field="CHECK" name="USE_ENCODING" value="false"/>
@@ -254,7 +254,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:MJCKMQj6vD4UbMUMLEvsMh+ckzP4IpJnsqul8x75"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:rJchup3OOmMNvcFj7ojuStkLUunicVdZAERDjvMu"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" show="false" value="0"/>
     <elementParameter field="CHECK" name="REMOTE_VERIFICATION" show="false" value="true"/>
@@ -271,18 +271,18 @@
     <elementParameter field="TEXT" name="PORT" show="false" value="21"/>
     <elementParameter field="TEXT" name="FTPS_PORT" show="false" value="990"/>
     <elementParameter field="TEXT" name="USERNAME" show="false" value="&quot;anonymous&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:UxE649okWXd9BOlBBd8hOok+I71oRS1ICUT6Sb5rnbag7+9qi7bj"/>
+    <elementParameter field="PASSWORD" name="PASSWORD" show="false" value="enc:system.encryption.key.v1:Tu2nwk9i+kA61VOMUfUA836NeosIhdPvPmp/PJWuaaWAoPeO5/6K"/>
     <elementParameter field="CHECK" name="SFTP" show="false" value="false"/>
     <elementParameter field="CHECK" name="FTPS" show="false" value="false"/>
     <elementParameter field="CLOSED_LIST" name="AUTH_METHOD" show="false" value="PASSWORD"/>
     <elementParameter field="FILE" name="PRIVATEKEY" show="false" value="&quot;/.ssh/id_dsa&quot;"/>
-    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:5ECw/DfwFaAO/uW+BwFVnMnY3pT/3gCFGHJWkhnpmepaiBi3"/>
+    <elementParameter field="PASSWORD" name="PASSPHRASE" show="false" value="enc:system.encryption.key.v1:kct0qCJAbqwE+yLUlZULEJrAO+rUtC0YxCOMv1j02YXxIAOt"/>
     <elementParameter field="DIRECTORY" name="LOCALDIR" value="context.localDir"/>
     <elementParameter field="TEXT" name="REMOTEDIR" value="context.RemoteLog"/>
     <elementParameter field="CHECK" name="CREATE_DIR_IF_NOT_EXIST" value="false"/>
     <elementParameter field="CHECK" name="MOVE_TO_THE_CURRENT_DIRECTORY" show="false" value="true"/>
     <elementParameter field="FILE" name="KEYSTORE_FILE" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:QaOH5EX85CpkNeW9g5wSXwdqHSts1YsVdLmYFF6MFIHOcpvk"/>
+    <elementParameter field="PASSWORD" name="KEYSTORE_PASS" show="false" value="enc:system.encryption.key.v1:nMyEyzi/twfd+DJWLUtTg2Jl7Tzag3XAPg+ARysetV4VOXEU"/>
     <elementParameter field="CLOSED_LIST" name="MODE" show="false" value="ascii"/>
     <elementParameter field="CLOSED_LIST" name="OVERWRITE" show="false" value="size_differ"/>
     <elementParameter field="CHECK" name="APPEND" show="false" value="false"/>
@@ -303,7 +303,7 @@
     <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;127.0.0.1&quot;"/>
     <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="&quot;1080&quot;"/>
     <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:KV/nDSUPWzX/zlBSvDTSh2I/6pl5s4VeSX8gC5oa"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:976rAqgiiFaxV58xK6ez/3pIbhRjtulaInxUbxCw"/>
     <elementParameter field="CHECK" name="IGNORE_FAILURE_AT_QUIT" show="false" value="false"/>
     <elementParameter field="OPENED_LIST" name="FTPS_PROT" show="false" value="&quot;P&quot;"/>
     <elementParameter field="TEXT" name="FTPS_PROTECTION_BUFF_SIZE" show="false" value="0"/>
@@ -348,7 +348,7 @@
     <elementParameter field="CLOSED_LIST" name="IMPORTANCE" value="Normal"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.username"/>
-    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:xTStXiRzB/8XY5CYAAhGzNrUvKA7ktjEpdcpYTosRQErmT1cu3RTn2smxmY="/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:A1fd+GQSHhtNHNICgWj0RefwpmNTGbj5sPvGpFeZmo/hGV+H4+KfBJiVjrs="/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
     <elementParameter field="CLOSED_LIST" name="TEXT_SUBTYPE" value="plain"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
@@ -607,6 +607,36 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="800" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_BkpmcHLhEeytDaSutLJAMQ-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="-1" name="Timestamp" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Job_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Log_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Timestamp" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Job_Name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Log_message" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE"/>
+    </nodeData>
+  </node>
   <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
@@ -637,7 +667,11 @@
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileOutputDelimited_1"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="-1" name="Timestamp" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Job_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Log_message" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
   </node>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFTPConnection_1" offsetLabelX="0" offsetLabelY="0" source="tFTPConnection_1" target="tFTPPut_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
@@ -647,6 +681,14 @@
   </connection>
   <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tFTPPut_1" offsetLabelX="0" offsetLabelY="0" source="tFTPPut_1" target="tSendMail_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFTPConnection_1"/>
@@ -673,18 +715,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-  <subjob>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
-  </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d1137ebe-18fa-4153-afbe-f316977b7795"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>I5fa8BFJN507gJc9qCPazvO+ZwHM8Re/SI69U/dii7B1E6GKIZqXlrhavici3EA6Gi5jcL6O1YOv&#13;
-pnzwYnE+hA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a7de5a1b-0da7-48f2-bfdd-c0ccc26838cf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hpFLOs51Iet7g+/8mgNSJupB0GNtyEScxjY8k+FKTpHU+keMmUmD9Iv2T+jpnC0UX/teJT/9B2v8&#13;
-NPoNqbccIw==</DigestValue></Reference></SignedInfo><SignatureValue>noHPKt8wXOjH9Vm6xP8aCeSl2wI+pwlSolZrUxpD2b9j43Zn1otDggm+jt41bDBGAHOIeO4lk2OU&#13;
-fiP4x8B1QxJ8XRAB0VfMLOZTHUGq4OofMFGn/Nqlqdu7b0flWmSMpxPetrSjKqsQDDRM34qlEarE&#13;
-uYxPaNxWDlMthZNrsG6/ON6MFzEZexz9JSz+Bs1QpS+L/d2U21isJ81h+XMZeds65KtcWH+961jM&#13;
-WTPMc94dkXTf8adk37bEIsgK0F+tZRkRVK7BAYCEH9U4ltoKYag9R0SvgJIz588U5RNIaTm2w/C0&#13;
-HifoujFru6MlKE4tu/mtdrKSC0UHXyPkXh/Pmg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_5f0925bc-26b0-40a1-8397-3badccd26ff1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>xAwQ2CZhKtfUN6ZzlY74Ew3jk4pfzkNBrZarBYj8Sd9SzWBhW3rfyi0W6y09Y9aqRJyzn343aXID&#13;
+i4IynNEraA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_1b7cb560-4684-4649-9526-22073b00e8c4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JZSYE+JUK7hAtLI/9R1BFDEwc1o4ULxCTCVjCqeeJmb0jG07fW/IuZDdDEQWohcKmLrq27OH6Sdq&#13;
+FqY8oFMCzg==</DigestValue></Reference></SignedInfo><SignatureValue>kPOg8cdUy3iiIIK/rYrIAqjmfW2RUX19U8l2NMz2gk/YZfj2vxj8xEfNI+Bv3HF8R5Y7jyx+KqDo&#13;
+8ZFDS7smjXwtAO92BpVTbr4ExQu0c85iP9Z/opltzYcrIf4VG5tfOBSrQvuyUyluUkZElIGiuwjF&#13;
+wgOH3BlPXOteUCHywChOimvxzYNm57eL4WF4nbXLZfZxIo9N+jpkBEltTdtUUIKJUZOoULiZkiKB&#13;
+465fubansZBrJsm1s8J7oxfcP6nR7nwZc8RMedZYqebK/eVDtWNV4YgAj1V/z/4Ldl1pMVS8Fnxh&#13;
+DGuqMO32yB0baEWZi23udHlByrbMw6e/qDq35w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -706,4 +743,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a7de5a1b-0da7-48f2-bfdd-c0ccc26838cf" Target="#_d1137ebe-18fa-4153-afbe-f316977b7795"><Timestamp>2022-01-12 06:18:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_1b7cb560-4684-4649-9526-22073b00e8c4" Target="#_5f0925bc-26b0-40a1-8397-3badccd26ff1"><Timestamp>2022-01-12 06:19:40</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
