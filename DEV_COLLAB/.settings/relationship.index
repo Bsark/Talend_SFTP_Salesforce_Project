@@ -1,1 +1,20 @@
-[ ]
+[ {
+  "baseItem" : {
+    "id" : "_gbVPsHIxEey_sLLyJYLtrg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_GB_MIHIrEey_sLLyJYLtrg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_VVkYkHKnEey_sLLyJYLtrg",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_VVkYkHKnEey_sLLyJYLtrg - SF_Account_xml",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
