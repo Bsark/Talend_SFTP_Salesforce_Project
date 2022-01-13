@@ -179,6 +179,10 @@
     "version" : "Latest",
     "type" : "job"
   }, {
+    "id" : "SFTP_SALESFORCE_PROJECT:_gbVPsHIxEey_sLLyJYLtrg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
     "id" : "_GXUeUHKsEeytDaSutLJAMQ",
     "version" : "Latest",
     "type" : "property"
