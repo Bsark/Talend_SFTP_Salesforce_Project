@@ -191,9 +191,9 @@
     "version" : "Latest",
     "type" : "job"
   }, {
-    "id" : "SFTP_SALESFORCE_PROJECT:_gbVPsHIxEey_sLLyJYLtrg",
+    "id" : "_GB_MIHIrEey_sLLyJYLtrg",
     "version" : "Latest",
-    "type" : "job"
+    "type" : "property"
   }, {
     "id" : "_GXUeUHKsEeytDaSutLJAMQ",
     "version" : "Latest",
