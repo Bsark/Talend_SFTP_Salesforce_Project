@@ -143,6 +143,14 @@
     "id" : "_jOzXUHH5EeytDaSutLJAMQ",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "SFTP_SALESFORCE_PROJECT:_SfDHgHLgEeytDaSutLJAMQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_GB_MIHIrEey_sLLyJYLtrg",
+    "version" : "Latest",
+    "type" : "property"
   } ]
 }, {
   "baseItem" : {
