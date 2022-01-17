@@ -71,10 +71,6 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "SFTP_SALESFORCE_PROJECT:_BkpmcHLhEeytDaSutLJAMQ",
-    "version" : "Latest",
-    "type" : "job"
-  }, {
     "id" : "_GXUeUHKsEeytDaSutLJAMQ",
     "version" : "Latest",
     "type" : "property"
